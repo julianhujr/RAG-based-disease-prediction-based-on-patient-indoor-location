@@ -39,7 +39,7 @@ class IntegratedMedicalAnalysisPipeline:
         """
         # API Configuration for symptom detection
         self.symptom_config = config.get('symptom_detection', {})
-        self.openrouter_api_key = self.symptom_config.get('api_key', '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')
+        self.openrouter_api_key = self.symptom_config.get('api_key', '......')
         self.openrouter_api_url = "https://openrouter.ai/api/v1/chat/completions"
         self.symptom_model = self.symptom_config.get('model', 'deepseek/deepseek-chat-v3.1')
         self.temperature = self.symptom_config.get('temperature', 0.1)
