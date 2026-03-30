@@ -1,0 +1,6 @@
+{
+    "model_name": "pritamdeka/S-PubMedBert-MS-MARCO",
+    "embedding_type": "sentence_transformer",
+    "chunk_size": 1024,
+    "chunk_overlap": 256
+}

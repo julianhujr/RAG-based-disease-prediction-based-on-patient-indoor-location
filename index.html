@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Analysis Dashboard</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .upload-section {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px;
+            border: 2px dashed #e0e0e0;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .upload-section:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .upload-section.dragover {
+            border-color: #667eea;
+            background: #f0f2ff;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .upload-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .upload-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .upload-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .results-section {
+            margin-top: 40px;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .results-header h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+        }
+
+        .download-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #218838;
+            transform: translateY(-1px);
+        }
+
+        .metadata-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 5px solid #667eea;
+        }
+
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .metadata-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .metadata-item:last-child {
+            border-bottom: none;
+        }
+
+        .metadata-label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .metadata-value {
+            color: #6c757d;
+            text-align: right;
+        }
+
+        .symptoms-section, .diseases-section {
+            margin: 30px 0;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .symptom-card, .disease-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .symptom-card:hover, .disease-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            line-height: 1.4;
+        }
+
+        .confidence-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .confidence-very-likely {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .confidence-likely {
+            background: #cce7ff;
+            color: #004085;
+        }
+
+        .confidence-possible {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .confidence-unlikely {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .priority-badge {
+            background: #dc3545;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .card-content {
+            color: #6c757d;
+            line-height: 1.6;
+        }
+
+        .related-symptoms {
+            margin-top: 15px;
+        }
+
+        .related-symptoms-title {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+
+        .symptom-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .symptom-tag {
+            background: #e7f3ff;
+            color: #0056b3;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        .no-data {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            padding: 40px 20px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #e9ecef;
+            border-radius: 2px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s ease;
+            animation: progress-animation 2s ease-in-out infinite;
+        }
+
+        @keyframes progress-animation {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .metadata-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Medical Analysis Dashboard</h1>
+            <p>Upload your medical data for AI-powered analysis and disease prediction</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="upload-section" id="uploadSection">
+                <div class="upload-icon">📁</div>
+                <h3>Upload Medical Data</h3>
+                <p>Select or drag & drop your JSON data file</p>
+                <input type="file" id="fileInput" class="file-input" accept=".json">
+                <button class="upload-btn" id="uploadBtn">Choose File</button>
+                <button class="upload-btn" id="analyzeBtn" style="display: none;" disabled>Analyze Data</button>
+                <div id="fileName" style="margin-top: 15px; font-weight: 500; color: #495057;"></div>
+            </div>
+            
+            <div id="status"></div>
+            
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-header">
+                    <h2>Analysis Results</h2>
+                    <button class="download-btn" id="downloadBtn">Download Results</button>
+                </div>
+                
+                <div class="metadata-card" id="metadataCard"></div>
+                
+                <div class="symptoms-section">
+                    <h3 class="section-title">
+                        🩺 Detected Symptoms
+                        <span id="symptomCount" class="confidence-badge confidence-likely"></span>
+                    </h3>
+                    <div id="symptomsContainer"></div>
+                </div>
+                
+                <div class="diseases-section">
+                    <h3 class="section-title">
+                        🏥 Disease Predictions
+                        <span id="diseaseCount" class="confidence-badge confidence-possible"></span>
+                    </h3>
+                    <div id="diseasesContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let analysisResults = null;
+        const SERVER_URL = 'http://localhost:8000';
+        
+        // DOM elements
+        const uploadSection = document.getElementById('uploadSection');
+        const fileInput = document.getElementById('fileInput');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const fileName = document.getElementById('fileName');
+        const status = document.getElementById('status');
+        const resultsSection = document.getElementById('resultsSection');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        // File upload handlers
+        uploadBtn.addEventListener('click', () => fileInput.click());
+        
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                handleFileSelect(file);
+            }
+        });
+
+        // Drag and drop handlers
+        uploadSection.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadSection.classList.add('dragover');
+        });
+
+        uploadSection.addEventListener('dragleave', (e) => {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+        });
+
+        uploadSection.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file && file.type === 'application/json') {
+                handleFileSelect(file);
+            } else {
+                showStatus('Please select a valid JSON file', 'error');
+            }
+        });
+
+        analyzeBtn.addEventListener('click', analyzeData);
+        downloadBtn.addEventListener('click', downloadResults);
+
+        function handleFileSelect(file) {
+            if (!file.name.endsWith('.json')) {
+                showStatus('Please select a JSON file', 'error');
+                return;
+            }
+
+            fileName.textContent = `Selected: ${file.name}`;
+            analyzeBtn.style.display = 'inline-block';
+            analyzeBtn.disabled = false;
+            hideStatus();
+        }
+
+        async function analyzeData() {
+            const file = fileInput.files[0];
+            if (!file) {
+                showStatus('Please select a file first', 'error');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            analyzeBtn.disabled = true;
+            showStatus('Analyzing data... This may take a few minutes', 'loading');
+            showProgressBar();
+
+            try {
+                const response = await fetch(`${SERVER_URL}/analyze`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    analysisResults = await response.json();
+                    showStatus('Analysis completed successfully!', 'success');
+                    displayResults(analysisResults);
+                } else {
+                    const errorData = await response.json();
+                    showStatus(`Analysis failed: ${errorData.detail || 'Unknown error'}`, 'error');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showStatus(`Network error: ${error.message}. Make sure the server is running.`, 'error');
+            } finally {
+                analyzeBtn.disabled = false;
+                hideProgressBar();
+            }
+        }
+
+        function showStatus(message, type) {
+            status.innerHTML = type === 'loading' ? 
+                `<div class="spinner"></div><div style="margin-top: 15px;">${message}</div>` : 
+                message;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+
+        function hideStatus() {
+            status.style.display = 'none';
+        }
+
+        function showProgressBar() {
+            const progressBar = document.createElement('div');
+            progressBar.className = 'progress-bar';
+            progressBar.innerHTML = '<div class="progress-fill"></div>';
+            status.appendChild(progressBar);
+        }
+
+        function hideProgressBar() {
+            const progressBar = status.querySelector('.progress-bar');
+            if (progressBar) {
+                progressBar.remove();
+            }
+        }
+
+        function displayResults(results) {
+            resultsSection.style.display = 'block';
+            
+            displayMetadata(results.analysis_metadata);
+            displaySymptoms(results.enhanced_symptoms || []);
+            displayDiseases(results.disease_predictions || []);
+            
+            // Scroll to results
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function displayMetadata(metadata) {
+            const metadataCard = document.getElementById('metadataCard');
+            const dataRange = metadata.data_date_range || {};
+            const models = metadata.models_used || {};
+            
+            metadataCard.innerHTML = `
+                <div class="metadata-grid">
+                    <div class="metadata-item">
+                        <span class="metadata-label">Analysis Date:</span>
+                        <span class="metadata-value">${formatDate(metadata.analysis_date)}</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-label">Data Range:</span>
+                        <span class="metadata-value">${dataRange.start || 'Unknown'} to ${dataRange.end || 'Unknown'}</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-label">Total Days:</span>
+                        <span class="metadata-value">${dataRange.total_days || 0}</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-label">Symptoms Detected:</span>
+                        <span class="metadata-value">${metadata.total_symptoms || 0}</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-label">Disease Predictions:</span>
+                        <span class="metadata-value">${metadata.total_diseases || 0}</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-label">Symptom Model:</span>
+                        <span class="metadata-value">${models.symptom_detection || 'Unknown'}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displaySymptoms(symptoms) {
+            const symptomsContainer = document.getElementById('symptomsContainer');
+            const symptomCount = document.getElementById('symptomCount');
+            
+            symptomCount.textContent = `${symptoms.length} found`;
+            
+            if (symptoms.length === 0) {
+                symptomsContainer.innerHTML = '<div class="no-data">No symptoms detected</div>';
+                return;
+            }
+            
+            symptomsContainer.innerHTML = symptoms.map((symptom, index) => `
+                <div class="symptom-card">
+                    <div class="card-header">
+                        <div class="card-title">${index + 1}. ${symptom['Abnormal Activity'] || 'Unknown Activity'}</div>
+                        <span class="confidence-badge ${getConfidenceClass(symptom.confidence)}">${symptom.confidence || 'Unknown'}</span>
+                    </div>
+                    <div class="card-content">
+                        <strong>Definition:</strong> ${symptom.definition || 'Not provided'}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function displayDiseases(diseases) {
+            const diseasesContainer = document.getElementById('diseasesContainer');
+            const diseaseCount = document.getElementById('diseaseCount');
+            
+            diseaseCount.textContent = `${diseases.length} predicted`;
+            
+            if (diseases.length === 0) {
+                diseasesContainer.innerHTML = '<div class="no-data">No diseases predicted</div>';
+                return;
+            }
+            
+            diseasesContainer.innerHTML = diseases.map((disease, index) => {
+                const isHighPriority = isHighPriorityDisease(disease.disease);
+                return `
+                    <div class="disease-card">
+                        <div class="card-header">
+                            <div class="card-title">
+                                ${index + 1}. ${disease.disease || 'Unknown Disease'}
+                                ${isHighPriority ? '<span class="priority-badge">HIGH PRIORITY</span>' : ''}
+                            </div>
+                            <span class="confidence-badge ${getConfidenceClass(disease.confidence)}">${disease.confidence || 'Unknown'}</span>
+                        </div>
+                        <div class="card-content">
+                            <div><strong>Medical Reasoning:</strong></div>
+                            <div style="margin: 10px 0; line-height: 1.6;">${disease.reasoning || 'Not provided'}</div>
+                            
+                            ${disease.related_abnormal_activities && disease.related_abnormal_activities.length > 0 ? `
+                                <div class="related-symptoms">
+                                    <div class="related-symptoms-title">Related Symptoms (${disease.related_abnormal_activities.length}):</div>
+                                    <div class="symptom-tags">
+                                        ${disease.related_abnormal_activities.map(symptom => 
+                                            `<span class="symptom-tag">${symptom}</span>`
+                                        ).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getConfidenceClass(confidence) {
+            if (!confidence) return 'confidence-unlikely';
+            const conf = confidence.toLowerCase();
+            if (conf.includes('very likely')) return 'confidence-very-likely';
+            if (conf.includes('likely')) return 'confidence-likely';
+            if (conf.includes('possible')) return 'confidence-possible';
+            return 'confidence-unlikely';
+        }
+
+        function isHighPriorityDisease(disease) {
+            if (!disease) return false;
+            const diseaseLower = disease.toLowerCase();
+            const highPriorityTerms = [
+                'cancer', 'carcinoma', 'tumor', 'neoplasm', 'malignancy',
+                'dementia', 'alzheimer', 'parkinson', 'huntington',
+                'cognitive impairment', 'neurodegenerative'
+            ];
+            return highPriorityTerms.some(term => diseaseLower.includes(term));
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return 'Unknown';
+            try {
+                return new Date(dateString).toLocaleString();
+            } catch {
+                return dateString;
+            }
+        }
+
+        function downloadResults() {
+            if (!analysisResults) {
+                showStatus('No results to download', 'error');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(analysisResults, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(dataBlob);
+            link.download = `medical_analysis_results_${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            showStatus('Results downloaded successfully!', 'success');
+            setTimeout(hideStatus, 3000);
+        }
+
+        // Check server health on page load
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch(`${SERVER_URL}/health`);
+                if (response.ok) {
+                    console.log('Server is running');
+                } else {
+                    showStatus('Server is not responding. Please make sure the FastAPI server is running on port 8000.', 'error');
+                }
+            } catch (error) {
+                showStatus('Cannot connect to server. Please make sure the FastAPI server is running on port 8000.', 'error');
+            }
+        });
+    </script>
+</body>
+</html>
