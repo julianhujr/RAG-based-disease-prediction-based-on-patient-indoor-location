@@ -1,0 +1,2738 @@
+{
+  "2019-6-28": [
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/28 13:11",
+      "start": "2019/6/28 13:03",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:13",
+      "start": "2019/6/28 13:11",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 13:14",
+      "start": "2019/6/28 13:13",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 13:15",
+      "start": "2019/6/28 13:14",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 13:16",
+      "start": "2019/6/28 13:15",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/28 13:19",
+      "start": "2019/6/28 13:16",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 13:20",
+      "start": "2019/6/28 13:19",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 13:21",
+      "start": "2019/6/28 13:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 13:22",
+      "start": "2019/6/28 13:21",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 13:23",
+      "start": "2019/6/28 13:22",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:24",
+      "start": "2019/6/28 13:23",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/28 13:25",
+      "start": "2019/6/28 13:24",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/28 13:26",
+      "start": "2019/6/28 13:25",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 13:27",
+      "start": "2019/6/28 13:26",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 13:28",
+      "start": "2019/6/28 13:27",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 13:29",
+      "start": "2019/6/28 13:28",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 13:30",
+      "start": "2019/6/28 13:29",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 13:31",
+      "start": "2019/6/28 13:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 13:32",
+      "start": "2019/6/28 13:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/28 13:36",
+      "start": "2019/6/28 13:32",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 13:41",
+      "start": "2019/6/28 13:36",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 13:45",
+      "start": "2019/6/28 13:41",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:46",
+      "start": "2019/6/28 13:45",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 13:48",
+      "start": "2019/6/28 13:46",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:50",
+      "start": "2019/6/28 13:48",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 13:53",
+      "start": "2019/6/28 13:50",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:55",
+      "start": "2019/6/28 13:53",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 13:56",
+      "start": "2019/6/28 13:55",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:57",
+      "start": "2019/6/28 13:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 13:58",
+      "start": "2019/6/28 13:57",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 13:59",
+      "start": "2019/6/28 13:58",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:00",
+      "start": "2019/6/28 13:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:02",
+      "start": "2019/6/28 14:00",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:08",
+      "start": "2019/6/28 14:02",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 14:09",
+      "start": "2019/6/28 14:08",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:10",
+      "start": "2019/6/28 14:09",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:14",
+      "start": "2019/6/28 14:10",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:15",
+      "start": "2019/6/28 14:14",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:18",
+      "start": "2019/6/28 14:15",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:20",
+      "start": "2019/6/28 14:18",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:21",
+      "start": "2019/6/28 14:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:22",
+      "start": "2019/6/28 14:21",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/28 14:23",
+      "start": "2019/6/28 14:22",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/28 14:24",
+      "start": "2019/6/28 14:23",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:26",
+      "start": "2019/6/28 14:24",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 14:27",
+      "start": "2019/6/28 14:26",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:28",
+      "start": "2019/6/28 14:27",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:30",
+      "start": "2019/6/28 14:28",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:31",
+      "start": "2019/6/28 14:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:35",
+      "start": "2019/6/28 14:31",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:36",
+      "start": "2019/6/28 14:35",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 14:37",
+      "start": "2019/6/28 14:36",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:42",
+      "start": "2019/6/28 14:37",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:43",
+      "start": "2019/6/28 14:42",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:51",
+      "start": "2019/6/28 14:43",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:52",
+      "start": "2019/6/28 14:51",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 14:54",
+      "start": "2019/6/28 14:52",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 14:55",
+      "start": "2019/6/28 14:54",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 14:57",
+      "start": "2019/6/28 14:55",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 15:00",
+      "start": "2019/6/28 14:57",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 15:04",
+      "start": "2019/6/28 15:00",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 15:05",
+      "start": "2019/6/28 15:04",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 15:06",
+      "start": "2019/6/28 15:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 15:07",
+      "start": "2019/6/28 15:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 15:11",
+      "start": "2019/6/28 15:07",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 15:12",
+      "start": "2019/6/28 15:11",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 15:18",
+      "start": "2019/6/28 15:12",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 16:41",
+      "start": "2019/6/28 15:18",
+      "duration_mins": 83.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 16:43",
+      "start": "2019/6/28 16:41",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 16:45",
+      "start": "2019/6/28 16:43",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 16:49",
+      "start": "2019/6/28 16:45",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 16:52",
+      "start": "2019/6/28 16:49",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 16:53",
+      "start": "2019/6/28 16:52",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:01",
+      "start": "2019/6/28 16:53",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 17:02",
+      "start": "2019/6/28 17:01",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 17:03",
+      "start": "2019/6/28 17:02",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:16",
+      "start": "2019/6/28 17:03",
+      "duration_mins": 13.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 17:17",
+      "start": "2019/6/28 17:16",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:18",
+      "start": "2019/6/28 17:17",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 17:21",
+      "start": "2019/6/28 17:18",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:25",
+      "start": "2019/6/28 17:21",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 17:26",
+      "start": "2019/6/28 17:25",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 17:28",
+      "start": "2019/6/28 17:26",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:29",
+      "start": "2019/6/28 17:28",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 17:30",
+      "start": "2019/6/28 17:29",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 17:31",
+      "start": "2019/6/28 17:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:32",
+      "start": "2019/6/28 17:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 17:33",
+      "start": "2019/6/28 17:32",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 17:34",
+      "start": "2019/6/28 17:33",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 17:35",
+      "start": "2019/6/28 17:34",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/28 17:59",
+      "start": "2019/6/28 17:35",
+      "duration_mins": 24.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 18:00",
+      "start": "2019/6/28 17:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 18:03",
+      "start": "2019/6/28 18:00",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:04",
+      "start": "2019/6/28 18:03",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 18:06",
+      "start": "2019/6/28 18:04",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:07",
+      "start": "2019/6/28 18:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:11",
+      "start": "2019/6/28 18:07",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:18",
+      "start": "2019/6/28 18:11",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:21",
+      "start": "2019/6/28 18:18",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:23",
+      "start": "2019/6/28 18:21",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:25",
+      "start": "2019/6/28 18:23",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:27",
+      "start": "2019/6/28 18:25",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:28",
+      "start": "2019/6/28 18:27",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:30",
+      "start": "2019/6/28 18:28",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:31",
+      "start": "2019/6/28 18:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:33",
+      "start": "2019/6/28 18:31",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:34",
+      "start": "2019/6/28 18:33",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:38",
+      "start": "2019/6/28 18:34",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:43",
+      "start": "2019/6/28 18:38",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:48",
+      "start": "2019/6/28 18:43",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 18:49",
+      "start": "2019/6/28 18:48",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 18:51",
+      "start": "2019/6/28 18:49",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 19:36",
+      "start": "2019/6/28 18:51",
+      "duration_mins": 45.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 19:39",
+      "start": "2019/6/28 19:36",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 19:40",
+      "start": "2019/6/28 19:39",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 20:12",
+      "start": "2019/6/28 19:40",
+      "duration_mins": 32.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 20:17",
+      "start": "2019/6/28 20:12",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/28 20:20",
+      "start": "2019/6/28 20:17",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 22:44",
+      "start": "2019/6/28 20:20",
+      "duration_mins": 144.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 22:55",
+      "start": "2019/6/28 22:44",
+      "duration_mins": 11.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 22:56",
+      "start": "2019/6/28 22:55",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 23:03",
+      "start": "2019/6/28 22:56",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 23:04",
+      "start": "2019/6/28 23:03",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 23:05",
+      "start": "2019/6/28 23:04",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 23:06",
+      "start": "2019/6/28 23:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 23:08",
+      "start": "2019/6/28 23:06",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 23:11",
+      "start": "2019/6/28 23:08",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 23:12",
+      "start": "2019/6/28 23:11",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 23:15",
+      "start": "2019/6/28 23:12",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 23:18",
+      "start": "2019/6/28 23:15",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/28 23:20",
+      "start": "2019/6/28 23:18",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 23:21",
+      "start": "2019/6/28 23:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/28 23:22",
+      "start": "2019/6/28 23:21",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/28 23:23",
+      "start": "2019/6/28 23:22",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/28 23:27",
+      "start": "2019/6/28 23:23",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/28 23:30",
+      "start": "2019/6/28 23:27",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 00:00",
+      "start": "2019/6/28 23:30",
+      "duration_mins": 30.0
+    }
+  ],
+  "2019-6-29": [
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 06:37",
+      "start": "2019/6/29 00:00",
+      "duration_mins": 397.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 06:44",
+      "start": "2019/6/29 06:37",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 08:31",
+      "start": "2019/6/29 06:44",
+      "duration_mins": 107.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 08:32",
+      "start": "2019/6/29 08:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 08:33",
+      "start": "2019/6/29 08:32",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 08:34",
+      "start": "2019/6/29 08:33",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 08:35",
+      "start": "2019/6/29 08:34",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 08:36",
+      "start": "2019/6/29 08:35",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 08:37",
+      "start": "2019/6/29 08:36",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 08:38",
+      "start": "2019/6/29 08:37",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 08:44",
+      "start": "2019/6/29 08:38",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 09:38",
+      "start": "2019/6/29 08:44",
+      "duration_mins": 54.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 09:34",
+      "start": "2019/6/29 09:32",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 09:36",
+      "start": "2019/6/29 09:35",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 09:42",
+      "start": "2019/6/29 09:38",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 09:44",
+      "start": "2019/6/29 09:42",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 09:45",
+      "start": "2019/6/29 09:44",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 09:46",
+      "start": "2019/6/29 09:45",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 09:47",
+      "start": "2019/6/29 09:46",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 09:54",
+      "start": "2019/6/29 09:47",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 09:55",
+      "start": "2019/6/29 09:54",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 09:57",
+      "start": "2019/6/29 09:55",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:01",
+      "start": "2019/6/29 09:57",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 10:02",
+      "start": "2019/6/29 10:01",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:03",
+      "start": "2019/6/29 10:02",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 10:13",
+      "start": "2019/6/29 10:03",
+      "duration_mins": 10.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 10:14",
+      "start": "2019/6/29 10:13",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 10:15",
+      "start": "2019/6/29 10:14",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 10:17",
+      "start": "2019/6/29 10:15",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:20",
+      "start": "2019/6/29 10:17",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 10:30",
+      "start": "2019/6/29 10:20",
+      "duration_mins": 10.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 10:31",
+      "start": "2019/6/29 10:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:32",
+      "start": "2019/6/29 10:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 10:44",
+      "start": "2019/6/29 10:32",
+      "duration_mins": 12.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:45",
+      "start": "2019/6/29 10:44",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:49",
+      "start": "2019/6/29 10:45",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 10:50",
+      "start": "2019/6/29 10:49",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 10:51",
+      "start": "2019/6/29 10:50",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 11:40",
+      "start": "2019/6/29 10:51",
+      "duration_mins": 49.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 11:41",
+      "start": "2019/6/29 11:40",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 11:43",
+      "start": "2019/6/29 11:41",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 12:02",
+      "start": "2019/6/29 11:43",
+      "duration_mins": 19.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 12:04",
+      "start": "2019/6/29 12:02",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 12:05",
+      "start": "2019/6/29 12:04",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 12:06",
+      "start": "2019/6/29 12:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 12:18",
+      "start": "2019/6/29 12:06",
+      "duration_mins": 12.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 12:20",
+      "start": "2019/6/29 12:18",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 12:23",
+      "start": "2019/6/29 12:20",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 13:31",
+      "start": "2019/6/29 12:23",
+      "duration_mins": 68.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 13:32",
+      "start": "2019/6/29 13:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 13:33",
+      "start": "2019/6/29 13:32",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/29 13:34",
+      "start": "2019/6/29 13:33",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 13:35",
+      "start": "2019/6/29 13:34",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 13:38",
+      "start": "2019/6/29 13:35",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 13:39",
+      "start": "2019/6/29 13:38",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 13:48",
+      "start": "2019/6/29 13:39",
+      "duration_mins": 9.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 13:49",
+      "start": "2019/6/29 13:48",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 13:56",
+      "start": "2019/6/29 13:49",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 13:57",
+      "start": "2019/6/29 13:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 13:58",
+      "start": "2019/6/29 13:57",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 14:01",
+      "start": "2019/6/29 13:58",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 14:57",
+      "start": "2019/6/29 14:01",
+      "duration_mins": 56.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 15:01",
+      "start": "2019/6/29 14:57",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 15:04",
+      "start": "2019/6/29 15:01",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 15:05",
+      "start": "2019/6/29 15:04",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 15:06",
+      "start": "2019/6/29 15:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 15:07",
+      "start": "2019/6/29 15:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 15:09",
+      "start": "2019/6/29 15:07",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 15:11",
+      "start": "2019/6/29 15:09",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 15:33",
+      "start": "2019/6/29 15:11",
+      "duration_mins": 22.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 15:56",
+      "start": "2019/6/29 15:33",
+      "duration_mins": 23.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 15:57",
+      "start": "2019/6/29 15:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 16:01",
+      "start": "2019/6/29 15:57",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 16:05",
+      "start": "2019/6/29 16:01",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 16:06",
+      "start": "2019/6/29 16:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 16:11",
+      "start": "2019/6/29 16:06",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 16:12",
+      "start": "2019/6/29 16:11",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 16:14",
+      "start": "2019/6/29 16:12",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 16:16",
+      "start": "2019/6/29 16:14",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 16:44",
+      "start": "2019/6/29 16:16",
+      "duration_mins": 28.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 16:47",
+      "start": "2019/6/29 16:44",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 16:56",
+      "start": "2019/6/29 16:47",
+      "duration_mins": 9.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 16:59",
+      "start": "2019/6/29 16:56",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:00",
+      "start": "2019/6/29 16:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:01",
+      "start": "2019/6/29 17:00",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:06",
+      "start": "2019/6/29 17:01",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 17:07",
+      "start": "2019/6/29 17:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 17:08",
+      "start": "2019/6/29 17:07",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:09",
+      "start": "2019/6/29 17:08",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:11",
+      "start": "2019/6/29 17:09",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:13",
+      "start": "2019/6/29 17:11",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:15",
+      "start": "2019/6/29 17:13",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 17:16",
+      "start": "2019/6/29 17:15",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:21",
+      "start": "2019/6/29 17:16",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 17:23",
+      "start": "2019/6/29 17:21",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 17:24",
+      "start": "2019/6/29 17:23",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:25",
+      "start": "2019/6/29 17:24",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:27",
+      "start": "2019/6/29 17:25",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:29",
+      "start": "2019/6/29 17:27",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 17:31",
+      "start": "2019/6/29 17:29",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:41",
+      "start": "2019/6/29 17:31",
+      "duration_mins": 10.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 17:43",
+      "start": "2019/6/29 17:41",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 17:44",
+      "start": "2019/6/29 17:43",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 17:45",
+      "start": "2019/6/29 17:44",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:46",
+      "start": "2019/6/29 17:45",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 17:47",
+      "start": "2019/6/29 17:46",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/29 17:50",
+      "start": "2019/6/29 17:47",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 17:52",
+      "start": "2019/6/29 17:50",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 17:53",
+      "start": "2019/6/29 17:52",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 17:54",
+      "start": "2019/6/29 17:53",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 18:05",
+      "start": "2019/6/29 17:54",
+      "duration_mins": 11.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 18:06",
+      "start": "2019/6/29 18:05",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 18:07",
+      "start": "2019/6/29 18:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 18:09",
+      "start": "2019/6/29 18:07",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 18:10",
+      "start": "2019/6/29 18:09",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 18:13",
+      "start": "2019/6/29 18:10",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 18:14",
+      "start": "2019/6/29 18:13",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 18:15",
+      "start": "2019/6/29 18:14",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 18:19",
+      "start": "2019/6/29 18:15",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 18:20",
+      "start": "2019/6/29 18:19",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/29 18:21",
+      "start": "2019/6/29 18:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 18:22",
+      "start": "2019/6/29 18:21",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 18:30",
+      "start": "2019/6/29 18:22",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 19:02",
+      "start": "2019/6/29 18:30",
+      "duration_mins": 32.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 19:07",
+      "start": "2019/6/29 19:02",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 19:08",
+      "start": "2019/6/29 19:07",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 19:49",
+      "start": "2019/6/29 19:08",
+      "duration_mins": 41.0
+    },
+    {
+      "location": "Fridge Door",
+      "end": "2019/6/29 19:29",
+      "start": "2019/6/29 19:28",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 19:31",
+      "start": "2019/6/29 19:29",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 21:23",
+      "start": "2019/6/29 19:49",
+      "duration_mins": 94.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 21:26",
+      "start": "2019/6/29 21:23",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 21:28",
+      "start": "2019/6/29 21:26",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 21:31",
+      "start": "2019/6/29 21:28",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 22:48",
+      "start": "2019/6/29 21:31",
+      "duration_mins": 77.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 22:50",
+      "start": "2019/6/29 22:48",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 22:56",
+      "start": "2019/6/29 22:50",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/29 22:57",
+      "start": "2019/6/29 22:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 23:00",
+      "start": "2019/6/29 22:57",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 23:08",
+      "start": "2019/6/29 23:00",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/29 23:09",
+      "start": "2019/6/29 23:08",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 23:11",
+      "start": "2019/6/29 23:09",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 23:15",
+      "start": "2019/6/29 23:11",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 23:20",
+      "start": "2019/6/29 23:15",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 23:21",
+      "start": "2019/6/29 23:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 23:36",
+      "start": "2019/6/29 23:21",
+      "duration_mins": 15.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/29 23:37",
+      "start": "2019/6/29 23:36",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 23:39",
+      "start": "2019/6/29 23:37",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/29 23:40",
+      "start": "2019/6/29 23:39",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/29 23:48",
+      "start": "2019/6/29 23:40",
+      "duration_mins": 8.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 00:00",
+      "start": "2019/6/29 23:48",
+      "duration_mins": 12.0
+    }
+  ],
+  "2019-6-30": [
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 00:24",
+      "start": "2019/6/30 00:00",
+      "duration_mins": 24.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 00:30",
+      "start": "2019/6/30 00:24",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 00:31",
+      "start": "2019/6/30 00:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 00:32",
+      "start": "2019/6/30 00:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 00:33",
+      "start": "2019/6/30 00:32",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 00:38",
+      "start": "2019/6/30 00:33",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 00:41",
+      "start": "2019/6/30 00:38",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 00:42",
+      "start": "2019/6/30 00:41",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 00:43",
+      "start": "2019/6/30 00:42",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 00:44",
+      "start": "2019/6/30 00:43",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 03:34",
+      "start": "2019/6/30 00:44",
+      "duration_mins": 170.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 04:06",
+      "start": "2019/6/30 03:34",
+      "duration_mins": 32.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 04:07",
+      "start": "2019/6/30 04:06",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 04:08",
+      "start": "2019/6/30 04:07",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 04:43",
+      "start": "2019/6/30 04:08",
+      "duration_mins": 35.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 08:18",
+      "start": "2019/6/30 04:43",
+      "duration_mins": 215.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 08:19",
+      "start": "2019/6/30 08:18",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 08:25",
+      "start": "2019/6/30 08:19",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 08:31",
+      "start": "2019/6/30 08:25",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 08:32",
+      "start": "2019/6/30 08:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 08:33",
+      "start": "2019/6/30 08:32",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 08:52",
+      "start": "2019/6/30 08:33",
+      "duration_mins": 19.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 08:53",
+      "start": "2019/6/30 08:52",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 08:54",
+      "start": "2019/6/30 08:53",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 08:55",
+      "start": "2019/6/30 08:54",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 08:56",
+      "start": "2019/6/30 08:55",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 08:57",
+      "start": "2019/6/30 08:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 08:58",
+      "start": "2019/6/30 08:57",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 08:59",
+      "start": "2019/6/30 08:58",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 09:00",
+      "start": "2019/6/30 08:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 09:16",
+      "start": "2019/6/30 09:00",
+      "duration_mins": 16.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 09:18",
+      "start": "2019/6/30 09:16",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 09:24",
+      "start": "2019/6/30 09:18",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 09:25",
+      "start": "2019/6/30 09:24",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 09:29",
+      "start": "2019/6/30 09:25",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 09:47",
+      "start": "2019/6/30 09:29",
+      "duration_mins": 18.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 09:48",
+      "start": "2019/6/30 09:47",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 09:49",
+      "start": "2019/6/30 09:48",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/30 09:50",
+      "start": "2019/6/30 09:49",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 09:54",
+      "start": "2019/6/30 09:50",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 10:14",
+      "start": "2019/6/30 09:54",
+      "duration_mins": 20.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 10:28",
+      "start": "2019/6/30 10:14",
+      "duration_mins": 14.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 10:52",
+      "start": "2019/6/30 10:28",
+      "duration_mins": 24.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 10:53",
+      "start": "2019/6/30 10:52",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 10:55",
+      "start": "2019/6/30 10:53",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 10:56",
+      "start": "2019/6/30 10:55",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bathroom",
+      "end": "2019/6/30 10:57",
+      "start": "2019/6/30 10:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 11:02",
+      "start": "2019/6/30 10:57",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 11:03",
+      "start": "2019/6/30 11:02",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 11:07",
+      "start": "2019/6/30 11:03",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 11:09",
+      "start": "2019/6/30 11:07",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 11:16",
+      "start": "2019/6/30 11:09",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 11:17",
+      "start": "2019/6/30 11:16",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 11:18",
+      "start": "2019/6/30 11:17",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 11:20",
+      "start": "2019/6/30 11:18",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/30 11:21",
+      "start": "2019/6/30 11:20",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 11:24",
+      "start": "2019/6/30 11:21",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 11:25",
+      "start": "2019/6/30 11:24",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 11:26",
+      "start": "2019/6/30 11:25",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 11:27",
+      "start": "2019/6/30 11:26",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 11:28",
+      "start": "2019/6/30 11:27",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 11:30",
+      "start": "2019/6/30 11:28",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 11:31",
+      "start": "2019/6/30 11:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 11:32",
+      "start": "2019/6/30 11:31",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/30 14:09",
+      "start": "2019/6/30 11:32",
+      "duration_mins": 157.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 14:10",
+      "start": "2019/6/30 14:09",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/30 14:11",
+      "start": "2019/6/30 14:10",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 14:12",
+      "start": "2019/6/30 14:11",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 14:14",
+      "start": "2019/6/30 14:12",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:16",
+      "start": "2019/6/30 14:14",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:18",
+      "start": "2019/6/30 14:16",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 14:19",
+      "start": "2019/6/30 14:18",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:21",
+      "start": "2019/6/30 14:19",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:23",
+      "start": "2019/6/30 14:21",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 14:24",
+      "start": "2019/6/30 14:23",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:25",
+      "start": "2019/6/30 14:24",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 14:26",
+      "start": "2019/6/30 14:25",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 14:58",
+      "start": "2019/6/30 14:26",
+      "duration_mins": 32.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 14:52",
+      "start": "2019/6/30 14:51",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 14:59",
+      "start": "2019/6/30 14:58",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 15:19",
+      "start": "2019/6/30 14:59",
+      "duration_mins": 20.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 15:54",
+      "start": "2019/6/30 15:19",
+      "duration_mins": 35.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 15:55",
+      "start": "2019/6/30 15:54",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 15:59",
+      "start": "2019/6/30 15:55",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 16:00",
+      "start": "2019/6/30 15:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 16:01",
+      "start": "2019/6/30 16:00",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Front Door",
+      "end": "2019/6/30 16:15",
+      "start": "2019/6/30 16:01",
+      "duration_mins": 14.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 16:17",
+      "start": "2019/6/30 16:15",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 16:19",
+      "start": "2019/6/30 16:17",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 16:20",
+      "start": "2019/6/30 16:19",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 16:22",
+      "start": "2019/6/30 16:20",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 16:23",
+      "start": "2019/6/30 16:22",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 16:29",
+      "start": "2019/6/30 16:23",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 16:33",
+      "start": "2019/6/30 16:29",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 16:34",
+      "start": "2019/6/30 16:33",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 16:35",
+      "start": "2019/6/30 16:34",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 17:14",
+      "start": "2019/6/30 16:35",
+      "duration_mins": 39.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 17:16",
+      "start": "2019/6/30 17:14",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 17:30",
+      "start": "2019/6/30 17:16",
+      "duration_mins": 14.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 17:45",
+      "start": "2019/6/30 17:30",
+      "duration_mins": 15.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 17:46",
+      "start": "2019/6/30 17:45",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 17:50",
+      "start": "2019/6/30 17:46",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 17:51",
+      "start": "2019/6/30 17:50",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 17:54",
+      "start": "2019/6/30 17:51",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 17:56",
+      "start": "2019/6/30 17:54",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 17:59",
+      "start": "2019/6/30 17:56",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:00",
+      "start": "2019/6/30 17:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:01",
+      "start": "2019/6/30 18:00",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:04",
+      "start": "2019/6/30 18:01",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:05",
+      "start": "2019/6/30 18:04",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:10",
+      "start": "2019/6/30 18:05",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 18:12",
+      "start": "2019/6/30 18:10",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:17",
+      "start": "2019/6/30 18:12",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:23",
+      "start": "2019/6/30 18:17",
+      "duration_mins": 6.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:24",
+      "start": "2019/6/30 18:23",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 18:26",
+      "start": "2019/6/30 18:24",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:27",
+      "start": "2019/6/30 18:26",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:32",
+      "start": "2019/6/30 18:27",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:36",
+      "start": "2019/6/30 18:32",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 18:38",
+      "start": "2019/6/30 18:36",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:42",
+      "start": "2019/6/30 18:38",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:44",
+      "start": "2019/6/30 18:42",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:45",
+      "start": "2019/6/30 18:44",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 18:48",
+      "start": "2019/6/30 18:45",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:50",
+      "start": "2019/6/30 18:48",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 18:52",
+      "start": "2019/6/30 18:50",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:55",
+      "start": "2019/6/30 18:52",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:56",
+      "start": "2019/6/30 18:55",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 18:58",
+      "start": "2019/6/30 18:56",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 18:59",
+      "start": "2019/6/30 18:58",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 19:00",
+      "start": "2019/6/30 18:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:02",
+      "start": "2019/6/30 19:00",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Back Door",
+      "end": "2019/6/30 19:03",
+      "start": "2019/6/30 19:02",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 19:05",
+      "start": "2019/6/30 19:03",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:10",
+      "start": "2019/6/30 19:05",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 19:25",
+      "start": "2019/6/30 19:10",
+      "duration_mins": 15.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:50",
+      "start": "2019/6/30 19:25",
+      "duration_mins": 25.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:51",
+      "start": "2019/6/30 19:50",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 19:53",
+      "start": "2019/6/30 19:51",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:56",
+      "start": "2019/6/30 19:53",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 19:57",
+      "start": "2019/6/30 19:56",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 19:59",
+      "start": "2019/6/30 19:57",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 20:00",
+      "start": "2019/6/30 19:59",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 20:21",
+      "start": "2019/6/30 20:00",
+      "duration_mins": 21.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 20:41",
+      "start": "2019/6/30 20:21",
+      "duration_mins": 20.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 20:45",
+      "start": "2019/6/30 20:41",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 20:47",
+      "start": "2019/6/30 20:45",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 22:15",
+      "start": "2019/6/30 20:47",
+      "duration_mins": 88.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 22:19",
+      "start": "2019/6/30 22:15",
+      "duration_mins": 4.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 22:21",
+      "start": "2019/6/30 22:19",
+      "duration_mins": 2.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 22:46",
+      "start": "2019/6/30 22:21",
+      "duration_mins": 25.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 22:47",
+      "start": "2019/6/30 22:46",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:05",
+      "start": "2019/6/30 22:47",
+      "duration_mins": 18.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 23:08",
+      "start": "2019/6/30 23:05",
+      "duration_mins": 3.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:09",
+      "start": "2019/6/30 23:08",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 23:10",
+      "start": "2019/6/30 23:09",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:11",
+      "start": "2019/6/30 23:10",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 23:12",
+      "start": "2019/6/30 23:11",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 23:13",
+      "start": "2019/6/30 23:12",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Kitchen",
+      "end": "2019/6/30 23:14",
+      "start": "2019/6/30 23:13",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:21",
+      "start": "2019/6/30 23:14",
+      "duration_mins": 7.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:22",
+      "start": "2019/6/30 23:21",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 23:23",
+      "start": "2019/6/30 23:22",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/6/30 23:28",
+      "start": "2019/6/30 23:23",
+      "duration_mins": 5.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 23:29",
+      "start": "2019/6/30 23:28",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Lounge",
+      "end": "2019/6/30 23:30",
+      "start": "2019/6/30 23:29",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Hallway",
+      "end": "2019/6/30 23:31",
+      "start": "2019/6/30 23:30",
+      "duration_mins": 1.0
+    },
+    {
+      "location": "Bedroom",
+      "end": "2019/7/1 00:00",
+      "start": "2019/6/30 23:31",
+      "duration_mins": 29.0
+    }
+  ]
+}
