@@ -1,0 +1,118 @@
+{
+  "evaluation_results": [
+    {
+      "disease": "Frontotemporal Dementia (FTD)",
+      "overlap_percentage": 60.0,
+      "overlap_details": [
+        "Disordered Eating Patterns with Possible Binge-Eating Characteristics <-> Hyperorality and altered eating behaviour (bingeing, placing food in mouth)",
+        "Severe Social Isolation and Sedentary Behavior Pattern <-> Apathy/abulia (inertia, marked lack of motivation); Early prominent personality and social conduct change",
+        "Repetitive Compulsive-Like Behavioral Patterns <-> Compulsive, stereotyped or ritualistic behaviours (repetitive actions)"
+      ],
+      "related_activities_validation": "All five listed related_abnormal_activities for FTD are exact items from the patient's symptom list. No fabricated or modified patient symptoms were introduced. The disease-specific symptom set from the literature covers the matched patient activities; however, two patient symptoms (severe sleep fragmentation; pathological bathroom usage) are not represented in the retrieved FTD symptom list.",
+      "reasoning_quality": "Good. The prediction uses appropriate FTD features (apathy, compulsive/stereotyped behaviour, hyperorality) to explain core patient behaviours. Some causal links (e.g., attributing urinary frequency to 'frontal indifference' and neurodegeneration causing sleep fragmentation) are plausible but relatively speculative and not explicitly supported in the provided disease-symptoms list. Overall the medical logic is coherent but would be stronger with citations or objective findings (neuro exam, imaging, urinary studies).",
+      "confidence_assessment": "Appropriate. The model's 'Likely' confidence aligns with a 60% symptom overlap and strong, disease-specific behavioural matches (hyperorality, compulsivity, apathy). Suggested confidence: 'Likely' (no change).",
+      "overall_reasonableness": "Good",
+      "detailed_feedback": "Strengths: Clear mapping of core behavioural features (apathy/social withdrawal, stereotyped behaviours, hyperorality) to FTD — these are classic and explain multiple high-confidence patient symptoms. Weaknesses: Sleep fragmentation and pathological bathroom usage were used to bolster the diagnosis but are not prominent in the provided FTD symptom list; invoking frontal lobe dysfunction to explain urinary symptoms is plausible but should be stated as a possible mechanism rather than definitive. Recommendation: state uncertainty about non-behavioural symptoms, recommend targeted workup (neuro exam, neuroimaging, formal cognitive testing) and consider alternative/comorbid causes for sleep fragmentation and urinary changes.",
+      "recommended_confidence": "Likely",
+      "calculated_overlap": 60.0,
+      "symptom_matches": [
+        "severe social isolation and sedentary behavior pattern <-> early prominent personality and social conduct change (decline in social judgment and relationships)",
+        "repetitive compulsive-like behavioral patterns <-> behavioral disinhibition (socially inappropriate behavior, impulsivity, loss of etiquette)",
+        "disordered eating patterns with possible binge-eating characteristics <-> hyperorality and altered eating behaviour (bingeing, placing food in mouth)"
+      ]
+    },
+    {
+      "disease": "Lewy Body Dementia (LBD)",
+      "overlap_percentage": 20.0,
+      "overlap_details": [
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption <-> REM sleep behavior disorder / vivid dream enactment (sleep disturbance)"
+      ],
+      "related_activities_validation": "The related_abnormal_activities list for LBD uses patient symptoms verbatim. No fabricated symptoms are present. However, most patient symptoms (compulsive-like behaviours, disordered eating, pathological bathroom use, severe social isolation) are not represented in the retrieved LBD symptom list provided.",
+      "reasoning_quality": "Fair to poor. The link between LBD and REM sleep behaviour disorder is correct and robust — that supports the sleep symptom. The prediction extrapolates to explain urinary symptoms and disordered eating via autonomic dysfunction and dopaminergic dysregulation; while these phenomena can occur in synucleinopathies, they are not prominent features in the provided LBD symptom list and the assertions about compulsive eating/punding are more characteristic of Parkinson's disease especially when treated with dopaminergic medications. The reasoning selectively overextends available evidence.",
+      "confidence_assessment": "Overconfident. The prediction was labeled 'Likely' despite only a single clear match (REM RBD) among the five patient symptoms (20% overlap). A more calibrated label would be 'Possible' at best given the current information — there is a plausible link for sleep disturbance and some nonspecific neuropsychiatric overlap, but insufficient direct support for the full cluster.",
+      "overall_reasonableness": "Fair",
+      "detailed_feedback": "Strengths: Correct identification of REM sleep behaviour disorder as a hallmark sleep disturbance linked to synucleinopathies, which supports consideration of LBD. Weaknesses: Over-interpretation of impulse-control/compulsive eating and urinary frequency as central LBD features without explicit support from the retrieved LBD symptom list. The prediction does not acknowledge the need for hallmark LBD features (visual hallucinations, parkinsonism, fluctuating cognition) or diagnostic testing (neurological exam, DAT imaging). Recommendation: downgrade confidence to 'Possible', request evidence of hallmark LBD features (visual hallucinations, parkinsonism, cognitive fluctuations) and medication history (dopaminergic agents) before raising confidence.",
+      "recommended_confidence": "Possible",
+      "calculated_overlap": 40.0,
+      "symptom_matches": [
+        "severe sleep fragmentation and circadian rhythm disruption <-> rem sleep behavior disorder / vivid dream enactment (sleep disturbance)",
+        "severe social isolation and sedentary behavior pattern <-> rem sleep behavior disorder / vivid dream enactment (sleep disturbance)"
+      ]
+    },
+    {
+      "disease": "Obstructive Sleep Apnoea Hypopnoea Syndrome (OSAHS)",
+      "overlap_percentage": 40.0,
+      "overlap_details": [
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption <-> Non‑refreshing, fragmented sleep/insomnia",
+        "Severe Social Isolation and Sedentary Behavior Pattern <-> Excessive daytime sleepiness (daytime somnolence) with poor concentration (explains daytime withdrawal/sedentary behaviour)"
+      ],
+      "related_activities_validation": "The related_abnormal_activities list for OSAHS consists of exact patient symptoms. No fabricated patient symptoms are present. However, nocturia/pathological bathroom usage — used in the model's reasoning — is not present in the provided OSAHS symptom list, so that specific claim is not directly supported by the retrieved OSAHS symptoms.",
+      "reasoning_quality": "Mixed. The central role of fragmented sleep is correctly matched to OSAHS and is a strong, evidence-based association. The model's claim that nocturia is a classic OSAHS feature is plausible clinically but is not reflected in the supplied OSAHS symptom list; linking disordered eating to hormonal dysregulation in OSAHS is speculative without additional data (BMI, metabolic markers). Overall the reasoning appropriately elevates OSAHS as a cause of sleep fragmentation but overstates support for the full behavioural cluster.",
+      "confidence_assessment": "Overconfident. The prediction was labeled 'Very Likely' while only 40% of the patient's symptoms map (directly or plausibly) to the provided OSAHS features. 'Possible' or 'Likely' would be more appropriate depending on additional data (snoring, witnessed apnoeas, BMI, neck circumference, oximetry). Recommend down-ranking to 'Possible' pending objective sleep history and testing (overnight oximetry/PSG).",
+      "overall_reasonableness": "Fair",
+      "detailed_feedback": "Strengths: Correct identification of fragmented sleep as a central and high-yield symptom for OSAHS. Weaknesses: Overextension to explain nocturia and binge-eating without supporting evidence in the retrieved list; lack of mention of cardinal features that would support OSAHS (snoring, witnessed apnoeas, obesity, elevated neck circumference). Recommendations: obtain focused OSAHS screening (STOP-BANG, partner report of snoring/apnoeas), overnight oximetry/polysomnography, and anthropometrics before assigning 'Very Likely' — revise confidence to 'Possible' or 'Likely' based on those findings.",
+      "recommended_confidence": "Possible",
+      "calculated_overlap": 25.0,
+      "symptom_matches": [
+        "severe sleep fragmentation and circadian rhythm disruption <-> witnessed apnoea episodes/recurrent breathing pauses during sleep (>10 seconds)"
+      ]
+    },
+    {
+      "disease": "Major Depressive Disorder (MDD)",
+      "overlap_percentage": 40.0,
+      "overlap_details": [
+        "Severe Social Isolation and Sedentary Behavior Pattern <-> Loss of interest/apathy (reduced pleasure or motivation)",
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption <-> Sleep disturbance (insomnia, early-morning wakening)"
+      ],
+      "related_activities_validation": "The related_abnormal_activities for MDD are exact patient symptoms. No fabricated items are present. The retrieved MDD symptom list supports sleep disturbance and apathy/social withdrawal; the patient's disordered eating (binge-like) is less directly represented (the provided list emphasizes appetite reduction) but depression can present with appetite increase in some cases.",
+      "reasoning_quality": "Good. The model correctly links core neurovegetative and behavioural features (sleep disturbance, social withdrawal/apathy) to MDD. The claim that depression can explain disordered eating is reasonable but should be qualified because the provided MDD symptom list emphasizes appetite reduction; increased appetite/binge-eating is a recognized but less common presentation and should be stated as such. Overall the reasoning is evidence-informed and logically consistent.",
+      "confidence_assessment": "Appropriate. The model's 'Likely' confidence is consistent with moderate overlap and plausible explanatory power for core symptoms. Suggested confidence: 'Likely' is reasonable, with the caveat to evaluate mood symptoms directly (PHQ-9, clinical interview) and consider comorbid medical causes.",
+      "overall_reasonableness": "Good",
+      "detailed_feedback": "Strengths: Accurate mapping of sleep disturbance and social withdrawal to MDD; recognition of bidirectional relationships between sleep, appetite, and mood. Weaknesses: Overgeneralization of appetite changes (binge-eating) without noting that MDD more commonly lists decreased appetite in retrieved symptoms—should acknowledge both increased and decreased appetite presentations. Recommendation: confirm with standardized mood assessment and a focused psychiatric history; consider comorbidity (OSAHS, neurocognitive disorder) given overlapping features.",
+      "recommended_confidence": "Likely",
+      "calculated_overlap": 33.33333333333333,
+      "symptom_matches": [
+        "severe sleep fragmentation and circadian rhythm disruption <-> sleep disturbance (insomnia, early-morning wakening)"
+      ]
+    },
+    {
+      "disease": "Benign Prostatic Hyperplasia (BPH)",
+      "overlap_percentage": 40.0,
+      "overlap_details": [
+        "Pathological Bathroom Usage Pattern Suggestive of Medical Condition <-> Urinary frequency; Nocturia",
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption <-> Nocturia causing nighttime awakenings (sleep fragmentation)"
+      ],
+      "related_activities_validation": "The BPH related_abnormal_activities are exact patient symptoms; no fabricated or modified symptoms were introduced. The retrieved BPH symptom list explicitly includes urinary frequency and nocturia which directly map to the patient's pathological bathroom usage and associated sleep fragmentation.",
+      "reasoning_quality": "Good. The prediction correctly identifies BPH as a common and plausible organic explanation for pathological bathroom usage and resultant nocturia-driven sleep fragmentation. The model appropriately notes that BPH does not explain the other behavioural symptoms directly but could contribute to secondary mood/sleep effects. This is evidence-based and cautious.",
+      "confidence_assessment": "Appropriate to slightly conservative. The model's 'Possible' rating is reasonable given a direct match for nocturia/frequency but absence of other BPH-specific data (urinary flow, DRE, post-void residual). 'Possible' is appropriate pending urologic evaluation; if history/exam supports BPH, confidence could be raised to 'Likely'.",
+      "overall_reasonableness": "Good",
+      "detailed_feedback": "Strengths: Direct mapping of bathroom pattern and nocturia to BPH, and reasonable causal link to sleep fragmentation. Weaknesses: Does not include urologic exam findings or demographic context (e.g., male, age). Recommendation: pursue focused urologic evaluation (urinary flow measurement, post-void residual, DRE) before raising confidence beyond 'Possible'; consider concomitant causes of nocturia (OSAHS, cardiac, diuretics).",
+      "recommended_confidence": "Possible",
+      "calculated_overlap": 0.0,
+      "symptom_matches": []
+    }
+  ],
+  "overall_assessment": {
+    "summary_score": 7.4,
+    "total_diseases_evaluated": 5,
+    "well_justified_predictions": 3,
+    "questionable_predictions": 2,
+    "major_concerns": [
+      "Two predictions appear overconfident relative to documented symptom overlap (LBD and OSAHS were assigned 'Likely'/'Very Likely' despite low-to-moderate overlap).",
+      "Inconsistent use of the retrieved disease symptom lists: some reasoning invoked disease features not present in the supplied lists (e.g., nocturia for OSAHS).",
+      "Insufficient incorporation of diagnostic priority features (e.g., for LBD: visual hallucinations, parkinsonism, cognitive fluctuations; for OSAHS: snoring, witnessed apnoeas, obesity)."
+    ],
+    "strengths": [
+      "Several predictions correctly mapped high-specificity behavioural features (FTD: hyperorality, compulsivity; MDD: sleep disturbance and social withdrawal).",
+      "The system considered both psychiatric and organic differentials rather than assuming a single etiology.",
+      "Urology (BPH) was appropriately considered for a high-priority symptom (pathological bathroom usage)."
+    ],
+    "improvement_recommendations": [
+      "Use stricter, reproducible mapping rules when calculating symptom overlap (explicitly document semantic equivalence rules) and avoid extrapolating features not present in retrieved disease lists without flagging them as speculative.",
+      "Calibrate confidence labels to overlap metrics and presence of disease-specific hallmark features. For example: ≥60% + disease-specific hallmark features => 'Likely/Very Likely'; 30–59% => 'Possible/Likely' depending on hallmarks; <30% => 'Unlikely'.",
+      "Integrate demographic/contextual data (age, sex, medication history, BMI, partner reports) and objective findings (neurological exam, sleep study, urology testing) before assigning high confidence.",
+      "Explicitly request or require presence/absence of hallmark features for each disease (e.g., hallucinations and parkinsonism for LBD; snoring/witnessed apnoeas for OSAHS) and prioritize those in the scoring algorithm.",
+      "When invoking mechanisms that are plausible but not in the provided symptom list (e.g., nocturia in OSAHS), annotate those links as 'plausible but not in retrieved dataset' and provide references or call for confirmatory testing."
+    ]
+  }
+}
