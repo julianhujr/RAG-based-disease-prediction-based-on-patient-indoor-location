@@ -1,7 +1,7 @@
 # 基于患者室内定位信息的 RAG 辅助疾病预测系统
 # (RAG-based Disease Prediction Based on Patient Indoor Location)
 
-本仓库为我的毕业设计项目源代码。项目主要探索在智慧医疗（Smart Healthcare）场景下，如何利用患者在医院内部的**空间定位轨迹（Indoor Location）**，结合**大语言模型（LLMs）**与**检索增强生成（RAG, Retrieval-Augmented Generation）**技术，实现对患者潜在疾病的智能化辅助预测。
+项目主要探索在智慧医疗（Smart Healthcare）场景下，如何利用患者在医院内部的**空间定位轨迹（Indoor Location）**，结合**大语言模型（LLMs）**与**检索增强生成（RAG, Retrieval-Augmented Generation）**技术，实现对患者潜在疾病的智能化辅助预测。
 
 ---
 
