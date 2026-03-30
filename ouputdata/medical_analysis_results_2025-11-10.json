@@ -1,0 +1,110 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-11-10T17:01:01.866021",
+    "data_date_range": {
+      "start": "2019-6-25",
+      "end": "2019-6-30",
+      "total_days": 6
+    },
+    "models_used": {
+      "symptom_detection": "deepseek/deepseek-chat-v3.1",
+      "disease_prediction": "google/gemini-2.5-pro"
+    },
+    "total_symptoms": 5,
+    "total_diseases": 5,
+    "confidence_threshold": "Possible"
+  },
+  "enhanced_symptoms": [
+    {
+      "Abnormal Activity": "Severe Sleep Fragmentation and Circadian Rhythm Disruption",
+      "confidence": "Very Likely",
+      "definition": "Extremely fragmented sleep patterns with frequent nighttime awakenings and inconsistent sleep-wake cycles, indicating potential circadian rhythm disorder or sleep pathology",
+      "explanation": "The data shows highly abnormal sleep architecture across all 6 days. The individual exhibits: 1) Extremely fragmented sleep with frequent bedroom entries/exits (8-23 entries/night), 2) Highly variable sleep timing (bedtime ranges from 00:00 to 04:42, wake time from 06:35 to 09:30), 3) Multiple nighttime awakenings with associated activities (fridge access, bathroom visits, lounge time), 4) Total sleep time variability from 5.8 to 9.4 hours with poor sleep efficiency. This pattern suggests severe circadian rhythm dysregulation, potentially indicating sleep disorders like insomnia, sleep apnea, or circadian rhythm disorders, which can significantly impact cognitive function and overall health.",
+      "collective_evidence": "6/6 days show sleep fragmentation; June 26: 23 bedroom entries with 107min and 227min sleep segments interrupted by 17min lounge activity; June 27: 353min sleep segment but with multiple interruptions; June 28: 257min sleep but with 4:42 AM awakening; Average 14.2 bedroom entries/day with highly variable durations (1-353min)"
+    },
+    {
+      "Abnormal Activity": "Pathological Bathroom Usage Pattern Suggestive of Medical Condition",
+      "confidence": "Very Likely",
+      "definition": "Excessive frequency and abnormal pattern of bathroom visits potentially indicating urinary or gastrointestinal issues, with patterns suggestive of urgency, frequency, or other medical complications",
+      "explanation": "The bathroom usage pattern is clinically abnormal across all days. The individual averages 63.8 bathroom visits/day (range 36-80), far exceeding the normal baseline of 6-12 visits/day. The pattern shows: 1) Extremely high frequency (up to 80 visits on June 27), 2) Many very short visits (1-2 minutes) suggesting urgency, 3) Clustering patterns particularly in evening hours, 4) Occasional prolonged visits (46min on June 25, 56min on June 26) suggesting different physiological issues. This pattern could indicate urinary frequency/urgency, gastrointestinal issues, or other medical conditions requiring evaluation. The consistency across days rules out temporary illness.",
+      "collective_evidence": "Average 63.8 bathroom visits/day (383 total over 6 days); June 27: 80 visits with 9 visits exceeding 5min duration; June 26: 59 visits with 56min prolonged session; Multiple clusters of 1min visits throughout days; Evening patterns show particularly high frequency (15-20 visits between 18:00-23:00)"
+    },
+    {
+      "Abnormal Activity": "Disordered Eating Patterns with Possible Binge-Eating Characteristics",
+      "confidence": "Likely",
+      "definition": "Abnormal food-seeking behavior characterized by excessive fridge access without corresponding meal preparation, suggesting potential binge eating disorder or other disordered eating patterns",
+      "explanation": "The fridge access pattern shows concerning characteristics: 1) Excessive frequency (29.7 entries/day, range 20-45), far exceeding normal meal/snack preparation needs, 2) Very short durations (average 2.9min/entry) suggesting grazing or binge behavior rather than meal preparation, 3) Nighttime access patterns (entries at 02:04, 02:12, 23:45, etc.), 4) Minimal corresponding kitchen activity suggesting consumption of ready-to-eat foods. The pattern is consistent with binge-eating disorder characteristics, particularly the high frequency of very short visits and nighttime eating. The progressive increase from 22 to 45 entries over the week suggests worsening pattern.",
+      "collective_evidence": "Average 29.7 fridge entries/day (178 total); June 29: 45 entries with many 1-2min durations; Nighttime entries: June 26 at 02:04, 02:12; June 25 at 23:45; Minimal kitchen activity corresponding to fridge access frequency; Progressive increase from 22 (6/25) to 45 (6/29) entries"
+    },
+    {
+      "Abnormal Activity": "Severe Social Isolation and Sedentary Behavior Pattern",
+      "confidence": "Likely",
+      "definition": "Extreme social withdrawal evidenced by excessive time spent in solitary activities (lounge) with minimal external engagement, suggesting potential depression or severe social anxiety",
+      "explanation": "The data reveals a pattern of severe social isolation: 1) Excessive lounge time (average 454min/day, 7.6 hours), 2) Minimal external engagement (Back Door entries average 8.5/day but mostly very short durations), 3) Limited variety of locations visited, 4) Long uninterrupted sedentary periods (up to 157min continuous lounge time). The individual spends the majority of waking hours in solitary lounge activities with minimal evidence of social interaction or external engagement. This pattern, combined with the sleep and eating disturbances, suggests potential depression or severe social anxiety disorder.",
+      "collective_evidence": "Average 454min/day in lounge (2724min total over 6 days); June 29: 157min uninterrupted lounge session; Minimal Back Door activity (51 entries total, many 1-2min); Limited location variety (primarily lounge, bedroom, bathroom); No evidence of visitors or social interaction patterns"
+    },
+    {
+      "Abnormal Activity": "Repetitive Compulsive-Like Behavioral Patterns",
+      "confidence": "Possible",
+      "definition": "Repetitive, ritualistic movement patterns between locations suggesting potential obsessive-compulsive traits or cognitive processing issues",
+      "explanation": "The data shows highly repetitive movement patterns: 1) Excessive hallway transitions (97 entries, average 16.2/day), 2) Repetitive sequences of bathroom-fridge-door-bedroom transitions, 3) Many very short (1min) visits to multiple locations in sequence, 4) Pattern consistency across days suggesting ritualistic behavior. These patterns may indicate obsessive-compulsive traits, anxiety-driven rituals, or cognitive processing difficulties. The mechanical, repetitive nature of the movements differs from typical home activity patterns and suggests possible psychological or neurological underpinnings.",
+      "collective_evidence": "97 hallway entries averaging 2.13min each; Repetitive sequences: June 25 multiple bathroom-fridge-bedroom sequences within minutes; June 26: 21 hallway transitions with repetitive patterns; Consistent short-duration transitions across all days; Mechanical repetition of location sequences rather than purposeful activity patterns"
+    }
+  ],
+  "disease_predictions": [
+    {
+      "disease": "Frontotemporal Dementia (FTD)",
+      "related_abnormal_activities": [
+        "Severe Social Isolation and Sedentary Behavior Pattern",
+        "Repetitive Compulsive-Like Behavioral Patterns",
+        "Disordered Eating Patterns with Possible Binge-Eating Characteristics",
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption",
+        "Pathological Bathroom Usage Pattern Suggestive of Medical Condition"
+      ],
+      "reasoning": "FTD provides a comprehensive explanation for the cluster of behavioral and cognitive symptoms. The 'Likely' symptom of 'Severe Social Isolation' is a hallmark of the behavioral variant of FTD, which presents with early changes in personality, apathy, inertia, and loss of motivation (Social Isolation Evidence, Ref 16). The 'Possible' symptom of 'Repetitive Compulsive-Like Behavioral Patterns' is also highly characteristic, described in the medical evidence as 'stereotyped behaviours such as repetitive actions and complex rituals' (Repetitive Behaviors Evidence, Ref 13). The 'Disordered Eating Pattern' aligns with FTD-related behaviors like 'cramming food into the mouth' (Repetitive Behaviors Evidence, Ref 13). Neurodegenerative processes in FTD disrupt sleep-wake cycles, explaining the sleep fragmentation. Urinary frequency and urgency can result from frontal lobe dysfunction causing 'frontal indifference' to social norms and bodily cues (Social Isolation Evidence, Ref 9).",
+      "confidence": "Likely"
+    },
+    {
+      "disease": "Lewy Body Dementia (LBD)",
+      "related_abnormal_activities": [
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption",
+        "Repetitive Compulsive-Like Behavioral Patterns",
+        "Severe Social Isolation and Sedentary Behavior Pattern",
+        "Pathological Bathroom Usage Pattern Suggestive of Medical Condition",
+        "Disordered Eating Patterns with Possible Binge-Eating Characteristics"
+      ],
+      "reasoning": "LBD is a strong neurological differential that connects multiple symptoms. The 'Very Likely' symptom of 'Severe Sleep Fragmentation' is specifically linked to this pathology via 'REM sleep behavioural disturbance', which is recognized as a pre-motor symptom of related synucleinopathies like Parkinson's disease (Sleep Evidence, Ref 18). The cognitive decline and psychiatric features of LBD, such as apathy and depression, would explain the 'Severe Social Isolation' (Repetitive Behaviors Evidence, Ref 18). Autonomic dysfunction, a common feature, can cause urinary frequency and urgency, explaining the 'Pathological Bathroom Usage Pattern' (Sleep Evidence, Ref 20). Furthermore, impulse control disorders, including 'compulsive eating' and perseverative behaviors like 'punding', are associated with the underlying dopaminergic dysregulation, accounting for the disordered eating and repetitive behaviors (Repetitive Behaviors Evidence, Ref 14).",
+      "confidence": "Likely"
+    },
+    {
+      "disease": "Obstructive Sleep Apnoea Hypopnoea Syndrome (OSAHS)",
+      "related_abnormal_activities": [
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption",
+        "Pathological Bathroom Usage Pattern Suggestive of Medical Condition",
+        "Severe Social Isolation and Sedentary Behavior Pattern",
+        "Disordered Eating Patterns with Possible Binge-Eating Characteristics"
+      ],
+      "reasoning": "This diagnosis is strongly supported by the highest confidence symptom, 'Severe Sleep Fragmentation'. The clinical definition aligns perfectly with the pathophysiology of OSAHS, which involves recurrent airway obstruction during sleep leading to frequent arousals and desaturation (Sleep Evidence, Ref 5, 6, 11). The second 'Very Likely' symptom, 'Pathological Bathroom Usage', is also a classic feature, as nocturia is common in OSAHS due to hormonal changes and arousals. The 'Likely' symptoms of social isolation and sedentary behavior can be a direct consequence of the excessive daytime sleepiness, fatigue, and poor concentration characteristic of the condition (Sleep Evidence, Ref 6). Furthermore, the hormonal dysregulation associated with chronic sleep deprivation in OSAHS can contribute to disordered eating and weight gain, which is a primary risk factor for the condition itself.",
+      "confidence": "Very Likely"
+    },
+    {
+      "disease": "Major Depressive Disorder (MDD)",
+      "related_abnormal_activities": [
+        "Severe Social Isolation and Sedentary Behavior Pattern",
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption",
+        "Disordered Eating Patterns with Possible Binge-Eating Characteristics"
+      ],
+      "reasoning": "MDD strongly explains the core behavioral symptoms with high confidence levels. 'Severe Social Isolation' is a cardinal feature of depression, stemming from anhedonia, fatigue, and social withdrawal (Social Isolation Evidence, Ref 8). The 'Very Likely' symptom of 'Severe Sleep Fragmentation' is a classic neurovegetative sign of depression (Sleep Evidence, Ref 1). The 'Likely' symptom of 'Disordered Eating Patterns' is also well-supported, as depression is linked to binge-eating and significant changes in appetite and weight (Eating Disorders Evidence, Ref 1). While less specific, the psychomotor changes in depression could manifest as repetitive behaviors, and somatic symptoms common in MDD could contribute to urinary frequency. MDD is frequently comorbid with, or can be a consequence of, organic diseases like OSAHS or dementia.",
+      "confidence": "Likely"
+    },
+    {
+      "disease": "Benign Prostatic Hyperplasia (BPH)",
+      "related_abnormal_activities": [
+        "Pathological Bathroom Usage Pattern Suggestive of Medical Condition",
+        "Severe Sleep Fragmentation and Circadian Rhythm Disruption"
+      ],
+      "reasoning": "This diagnosis directly addresses the 'Very Likely' symptom of a 'Pathological Bathroom Usage Pattern'. The clinical definition, suggesting urgency and frequency, aligns perfectly with the classic storage and obstructive symptoms of BPH, such as frequency, urgency, and nocturia (Bathroom Evidence, Ref 1, 8, 18). The significant nocturia (nighttime urination) caused by BPH would be a primary driver of the 'Severe Sleep Fragmentation and Circadian Rhythm Disruption'. While BPH does not directly explain the other behavioral symptoms, it is an extremely common condition in aging males and provides a clear organic basis for two of the highest-confidence symptoms, which in turn could exacerbate mood and behavioral issues due to chronic sleep loss.",
+      "confidence": "Possible"
+    }
+  ]
+}
