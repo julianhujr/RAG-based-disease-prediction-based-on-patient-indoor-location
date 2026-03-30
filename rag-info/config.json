@@ -1,0 +1,19 @@
+{
+    "model": {
+        "LLM_api_type": "openai",
+        "base_url": "https://integrate.api.nvidia.com/v1",
+        "api_key": "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",
+        "model_name": "deepseek-ai/deepseek-r1",
+        "system_input": "You are a medical assistant specializing in symptom assessment. Your job is to help users understand their symptoms, suggest possible conditions, and advise them on when to seek medical attention. Always encourage users to consult a healthcare professional for a definitive diagnosis.",
+        "temperature": 0.7,
+        "top_p": 0.9
+    },
+    "rag_db": {
+        "faiss_path": "./rag",
+        "docs_path": "./ocr/output",
+        "model_name": "pritamdeka/S-PubMedBert-MS-MARCO",
+        "embedding_type": "sentence_transformer",
+        "chunk_size": 1024,
+        "chunk_overlap": 256
+    }
+}
