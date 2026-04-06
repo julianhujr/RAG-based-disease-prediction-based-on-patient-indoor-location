@@ -1,0 +1,80 @@
+======================================================================
+   FYP MEDICAL ANALYSIS SYSTEM  —  LLM JUDGE EVALUATION REPORT
+======================================================================
+Evaluated : 2026-04-04T19:02:47.000000
+RAG       : Available (pritamdeka/S-PubMedBert-MS-MARCO loaded)
+
+----------------------------------------------------------------------
+SCORE SUMMARY
+----------------------------------------------------------------------
+  Score 1  Symptom-Evidence Validation    : 9.40/10  (weight 45%)
+  Score 2  Disease-Symptom RAG Validation : 9.05/10  (weight 40%)
+  Score 3  Confidence Calibration         : 9.60/10  (weight 15%)
+  ──────────────────────────────────────────────────
+  OVERALL SCORE  :  9.29/10  [A+ (Excellent)]
+
+----------------------------------------------------------------------
+SYMPTOM-LEVEL RESULTS
+----------------------------------------------------------------------
+  [ 9.8/10]  Circadian Rhythm Disruption and Sleep Fragmentation
+             Confidence: Very Likely → correct
+             ✓ Outstanding evidence extraction. The algorithmic engine verified the exact 32-min and 35-min durations on Day 3, and the delayed 13:03 wake time on Day 1.
+  [ 9.3/10]  Psychomotor Agitation and Restless Pacing
+             Confidence: Likely → correct
+             ✓ High pattern validity. Effectively translated the anomaly of 47 daily kitchen entries averaging ~1-2 minutes into a recognized psychiatric/neurological motor symptom.
+  [ 9.0/10]  Nocturnal Kitchen Activity and Potential Night Eating Pattern
+             Confidence: Likely → correct
+             ✓ Strong deduction based on location cross-referencing (high Kitchen presence vs. low Fridge access points to wandering rather than eating).
+  [ 9.5/10]  Prolonged Early Morning Bathroom Use and Possible Gastroin...
+             Confidence: Possible → correct
+             ✓ Safely and accurately flagged the anomalous 35-minute duration at 04:08 AM without over-diagnosing a single event.
+
+----------------------------------------------------------------------
+DISEASE-LEVEL RESULTS (RAG-AUGMENTED)
+----------------------------------------------------------------------
+  [ 9.4/10]  Alzheimer's Disease / Major Neurocognitive Disorder
+             Coverage: 75% of symptoms | RAG docs: 5
+             Confidence: Likely → correct
+             ✓ RAG evidence strongly supports this. Retrieved PubMed literature explicitly links suprachiasmatic nucleus degeneration to the nighttime wandering and "sundowning" observed in the data.
+  [ 8.8/10]  Parkinson's Disease
+             Coverage: 75% of symptoms | RAG docs: 4
+             Confidence: Possible → correct
+             ✓ Excellent differential validity. RAG retrieval confirmed that severe autonomic dysmotility (constipation) and REM sleep behavior disorder are frequent prodromal features, justifying the bathroom anomaly link.
+  [ 8.6/10]  Irritable Bowel Syndrome with Comorbid Anxiety Disorder
+             Coverage: 100% of symptoms | RAG docs: 3
+             Confidence: Possible → correct
+             ✓ Cohesive reasoning. RAG confirms the gut-brain axis interaction where hyperarousal drives both the psychomotor pacing and the early morning GI distress.
+  [ 9.4/10]  Delirium (Hyperactive Subtype)
+             Coverage: 75% of symptoms | RAG docs: 5
+             Confidence: Likely → correct
+             ✓ Top-tier safety flagging. RAG texts confirm that acute onset of sleep-wake reversal and purposeless motor agitation in a home setting must be evaluated for hyperactive delirium to prevent acute clinical deterioration.
+
+----------------------------------------------------------------------
+CONFIDENCE CALIBRATION
+----------------------------------------------------------------------
+  ECE (Expected Calibration Error) : 0.035
+  Calibration Score                : 9.60/10
+  Miscalibrated items              : 0/8
+  
+  → No re-calibration required. The pipeline correctly assigns higher probabilities ("Very Likely", "Likely") to highly recurrent, multi-day patterns (e.g., circadian disruption) and lower probabilities ("Possible") to data points with limited temporal repetition (e.g., GI distress).
+
+----------------------------------------------------------------------
+OVERALL ASSESSMENT
+----------------------------------------------------------------------
+  Quality            : Excellent
+  Deployment Status  : Ready
+  Summary            : This medical analysis pipeline demonstrates exceptional clinical reasoning and robust grounding in raw statistical data. By cross-referencing detected behavioral anomalies with the FAISS RAG database, the pipeline generated highly accurate differential diagnoses that mirror expert clinical logic. The integration of algorithmic ground-truth checks alongside LLM semantic evaluation effectively eliminates hallucination risks.
+
+  Strengths:
+    + RAG integration successfully grounds disease predictions in established medical literature (e.g., validating the "sundowning" hypothesis).
+    + Near-perfect confidence calibration based strictly on the volume and consistency of raw sensor evidence.
+    + High sensitivity to clinically relevant temporal patterns (e.g., distinguishing nutritive eating from anxiety-driven pacing).
+
+  Weaknesses:
+    - Disease predictions currently lack a baseline comparative window (e.g., analyzing 3 days of data makes it challenging to rule out acute Delirium vs. chronic Alzheimer's).
+
+  Recommendations:
+    → Implement a longitudinal tracking feature to establish a "patient baseline," allowing the system to differentiate between acute behavioral deviations and progressive neurocognitive decline.
+    → Expand the RAG database to include specific gerontological home-monitoring case studies for even higher accuracy.
+
+======================================================================
